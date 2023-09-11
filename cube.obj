@@ -19,13 +19,19 @@ v -1 -1 0
 v 1 -1 0
 v 1 -1 -1
 
-#  # Quad 4(Back)
-#  v -1 1 -1
-#  v -1 -1 -1
- 
+ # Quad 4(Back) # ended at 16
+ v -1 1 -1
+ v -1 -1 -1
+ v 1 -1 -1
+ v 1 1 -1 
+
+ # Quad 5(Left) ended at 20
+ v -1 1 -1
+ v -1 -1 -1
+ v 1 -1 1
+ v 1 1 1
 
 ##########################
-
 
 # List of faces
 # Face 1(Front)
@@ -39,5 +45,13 @@ f 7 8 5
 # Face 3(Bottom)
 f 9 10 11
 f 11 12 9
+
+# Face 4(Back)
+f 13 14 15
+f 15 16 13
+
+# Face 5(Left)
+f 17 18 19
+f 19 20 17
 
 ####################
